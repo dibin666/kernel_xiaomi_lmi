@@ -30,7 +30,7 @@ current_time=$(date +"%Y-%m-%d-%H-%S")
 ANYKERNEL3_DIR=$PWD/AnyKernel3/
 
 # 编译完成后内核名字
-FINAL_KERNEL_ZIP=AnyKernel3-Kitsune-lmi-KernelSU-${current_time}.zip
+FINAL_KERNEL_ZIP=AnyKernel3-Kitsune-lmi-exFAT-${current_time}.zip
 
 # 内核工作目录
 export KERNEL_DIR=$(pwd)
